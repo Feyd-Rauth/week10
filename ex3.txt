@@ -1,0 +1,13 @@
+After creating:
+-rw-r--r-- 1 atrei docker 0 окт 21 12:50 _ex3.txt
+Removed execution permission for everybody:
+-rw-r--r-- 1 atrei docker 0 окт 21 12:50 _ex3.txt
+Granted all permissions to user(owner) and others:
+-rwxr--rwx 1 atrei docker 0 окт 21 12:50 _ex3.txt
+Made group permissions equal to user permissions:
+-rwxrwxrwx 1 atrei docker 0 окт 21 12:50 _ex3.txt
+
+660 for file means that user and group have rw permissions, and others have no permissions
+775 for file means that user and group have rwx permissions, and others have rx permissions
+777 for file means that user, group and others have rwx permissions
+ 
